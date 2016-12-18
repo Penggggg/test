@@ -12,9 +12,8 @@ export let SearchDecorate = Wrapper => {
                 }
 
                 fetchHandler = ( keyword ) => {
-                    console.log(`fetching ${keyword}`);
                     this.setState({
-                        data: `fetching ${keyword}`
+                        data: `fetching ${this.props.fetchUrl}${keyword}`
                     })
                 }
 

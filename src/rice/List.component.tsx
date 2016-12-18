@@ -6,7 +6,7 @@ export default class List extends React.PureComponent< IProps, { }> {
 
 
     render( ) {
-        return <div>{ this.props.data }</div>
+        return <div>result : { this.props.data }</div>
     }
 }
 
